@@ -1,0 +1,33 @@
+1) Traverse :
+
+         from array import *
+         array1 = array('i', [10,20,30,40,50])
+         for x in array1:
+         print(x)
+2) Insertion :
+ 
+        from array import *
+        array1=array('i',[10,20,30])
+        array1.insert(1,40)
+        for x in array1:
+        print(x)
+3) Deletion :
+
+        from array import *
+        array1=array('i',[10,20,30,40])
+        array1.remove(40)
+        for x in array1 :
+        print(x)
+4) Search :
+
+        from array import *
+        array1=array('i',[10,20,30])
+        print(array1.index(20))
+        
+5) Update :
+
+       from array import *
+       array1=array('i',[10,20,30,40])
+       array1[2]=40
+       for x in array1:
+       print(x)
